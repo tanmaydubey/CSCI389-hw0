@@ -86,6 +86,13 @@ int main(int argc, char *argv[]) {
         printf("Mean time per coordinate: %lfus\n", (t * 1000000) / (size * iters));
         printf("Final checksum is: %f\n", chksum);
 
+        free(x);
+        free(y);
+        free(z);
+        free(vx);
+        free(vy);
+        free(vz);
+
         return 0;
 
     }

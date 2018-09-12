@@ -1,3 +1,5 @@
+Solutions to Homework 1: porting a benchmark from Python to C, comparing and contrasting performance and memory consumption across the two.
+
 Part 1:
 
 a) At a size of 2^8, I ran at 40,000 iterations. I tried to get getting mean coordinate update times that were similar to each other with multiple runs with the same parameters. At the same time, I aimed for the program to run in a reasonable amount of time, so that I could feasibly conduct multiple runs. As I doubled the size, I halved the number of iterations. This does two things: first, it keeps the number of coordinate updates, and thus the statistical significance of the mean, a constant. Second, it keeps the running time within a reasonable limit. The number of iterations M for each object count N are given below/:

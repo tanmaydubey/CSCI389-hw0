@@ -1,0 +1,4 @@
+set xlabel "Number of objects"
+set ylabel "Mean coordinate update time"
+set title "C vs Python code performance"
+set logscale x 2
